@@ -1,0 +1,24 @@
+body .row{
+  margin-top: 40px;
+}
+.red{
+  width: 570px;
+  height: 570px;
+  background-color: rgba(255, 0, 0, 0.288);
+}
+.yellow{
+  width: 570px;
+  height: 570px;
+  background-color: rgba(255, 255, 0, 0.288);
+}
+.yellow p {
+  font-size: 180px;
+  overflow: hidden;
+  animation-name: p;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes p {
+  from {margin-left:100%}
+  to {margin-left:5%}
+}
