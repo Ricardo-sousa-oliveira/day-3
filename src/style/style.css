@@ -1,24 +1,35 @@
-body .row{
+body .container {
   margin-top: 40px;
 }
 .red{
   width: 570px;
   height: 570px;
   background-color: rgba(255, 0, 0, 0.288);
+  display: inline-block;
+
+
 }
 .yellow{
   width: 570px;
   height: 570px;
   background-color: rgba(255, 255, 0, 0.288);
-}
-.yellow p {
-  font-size: 180px;
   overflow: hidden;
+  display: inline-block;
+
+}
+.red p {
+  margin-top: 250px;
+  font-size: 180px;
   animation-name: p;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
+  animation-direction: reverse;
+  white-space: nowrap;
 }
 @keyframes p {
-  from {margin-left:100%}
-  to {margin-left:5%}
+  0% {transform: translate(0, -50%)}
+  100% {transform: translate(-50%, -50%)}
+  0% {margin-left: 100%;}
+  100% {margin-left: 5%;}
+  
 }
