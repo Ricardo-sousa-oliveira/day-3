@@ -17,18 +17,16 @@ body .container {
   display: inline-block;
 
 }
-.red p {
-  margin-top: 250px;
+.yellow p {
+  margin-top: 750px;
   font-size: 180px;
   animation-name: p;
-  animation-duration: 8s;
+  animation-duration: 10s;
   animation-iteration-count: infinite;
   white-space: nowrap;
 }
 @keyframes p {
-  0% {transform: translate(0, -50%)}
-  100% {transform: translate(-50%, -50%)}
-  0% {margin-left: 100%;}
-  100% {margin-left: 5%;}
+  0% {transform: translate(0, -250%)}
+  100% {transform: translate(-250%, -250%)}
   
 }
