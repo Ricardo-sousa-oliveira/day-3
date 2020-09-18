@@ -1,4 +1,5 @@
 body .container {
+  display: flex;
   margin-top: 40px;
 }
 .red{
@@ -6,14 +7,13 @@ body .container {
   height: 570px;
   background-color: rgba(255, 0, 0, 0.288);
   display: inline-block;
-
+  overflow: hidden;
 
 }
 .yellow{
   width: 570px;
   height: 570px;
   background-color: rgba(255, 255, 0, 0.288);
-  overflow: hidden;
   display: inline-block;
 
 }
@@ -21,9 +21,8 @@ body .container {
   margin-top: 250px;
   font-size: 180px;
   animation-name: p;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
-  animation-direction: reverse;
   white-space: nowrap;
 }
 @keyframes p {
